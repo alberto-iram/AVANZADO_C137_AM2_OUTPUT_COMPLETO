@@ -36,7 +36,7 @@ function draw() {
       if(status != "")
       {
         for (i = 0; i < objects.length; i++) {
-          document.getElementById("status").innerHTML = "Estado: objetoS detectadoS";
+          document.getElementById("status").innerHTML = "Estado: objetos detectados";
     
           fill("#FF0000");
           percent = floor(objects[i].confidence * 100);
